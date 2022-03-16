@@ -1,0 +1,1 @@
+ipython train_tf.ipy -- --weightspath=models/COVIDNet-CXR4-A --metaname=model.meta --ckptname=model-18540 --n_classes=3 --trainfile=labels/train_COVIDx9A.txt --testfile=labels/test_COVIDx9A.txt --out_tensorname=norm_dense_1/Softmax:0 --logit_tensorname=norm_dense_1/MatMul:0 --bs=64 --epochs=22
